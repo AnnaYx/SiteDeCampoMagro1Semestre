@@ -1,348 +1,345 @@
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 
-    background-color: white;
+  background-color: white;
 
-    padding: 2rem 9%;
-    justify-content: space-between;
-    align-items: center;
+  padding: 2rem 9%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header nav a {
-    text-align: center;
-    text-decoration: none;
-    list-style-type: none;
-    font-family: 'Manrope', sans-serif;
-    font-size: 18px;
-    color: black;
-    padding: 30px;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  color: black;
+  padding: 30px;
 }
 
 header nav a:hover {
-    transition: 1s;
-    transform: scale(1.05);
-    background-color: rgb(102,102,102,0.1);
-}
-  
-h1 {
-    font-size: 60px;
-    padding-left: 444px;
-    font-family: 'Libre Franklin', sans-serif;
+  transition: 1s;
+  transform: scale(1.05);
+  background-color: rgb(102,102,102,0.1);
 }
 
-h2{
-  font-size: 30px;
+h1 {
+  font-size: 60px;
+  padding-left: 444px;
   font-family: 'Libre Franklin', sans-serif;
 }
 
-p{
-  font-size: 20px;
-  font-family: 'Nunito', sans-serif;
+h2{
+font-size: 30px;
+font-family: 'Libre Franklin', sans-serif;
 }
-  
+
+p{
+font-size: 20px;
+font-family: 'Nunito', sans-serif;
+}
+
 section{
-    padding-top: 1000px;
-    padding-right: 200px;
-    padding-left: 100px;
-    display: inline-block;
-    text-align: justify;
+  padding-top: 260px;
+  padding-right: 100px;
+  padding-left: 100px;
+  display: inline-block;
+  text-align: justify;
 }
 
 body{
-    overflow-y: scroll;
+  overflow-y: scroll;
 }
 
 
-  .imagem{
-    margin: auto;
-    width: 700px;
-  }
+.imagem{
+  margin: auto;
+  width: 700px;
+}
 .telefone{
-    font-weight: bold;
-    font-size: 18px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 #codigosmari
 
 .ul{
-  font-size: 16px;
-  font-family: 'Nunito', sans-serif;
+font-size: 16px;
+font-family: 'Nunito', sans-serif;
 }
 
 li{
-  font-size: 16px;
-  font-family: 'Nunito', sans-serif;
-  
+font-size: 16px;
+font-family: 'Nunito', sans-serif;
+
 }
 
 
 .texto_sant{
-  float: left;
-  text-align: center;
+float: left;
+text-align: center;
 
 }
 
 .coluna{
-  float: left;
-  width: 60%;
-  padding-inline-start: 120px;
-  padding-top: 50px;
-  text-align: center;
-  
-  
+float: left;
+width: 60%;
+padding-inline-start: 120px;
+padding-top: 50px;
+text-align: center;
+
+
 }
 .row::after {
-  content: "";
-  clear: both;
-  display: table;
+content: "";
+clear: both;
+display: table;
 }
 
 .button {
-  align-items: center;
-  appearance: button;
-  background-color: #0276FF;
-  border-radius: 8px;
-  border-style: none;
-  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: flex;
-  flex-direction: row;
-  flex-shrink: 0;
-  font-family: "RM Neue",sans-serif;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
-  padding: 10px 21px;
-  text-align: center;
-  text-transform: none;
-  transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+align-items: center;
+appearance: button;
+background-color: #0276FF;
+border-radius: 8px;
+border-style: none;
+box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+box-sizing: border-box;
+color: #fff;
+cursor: pointer;
+display: flex;
+flex-direction: row;
+flex-shrink: 0;
+font-family: "RM Neue",sans-serif;
+font-size: 100%;
+line-height: 1.15;
+margin: 0;
+padding: 10px 21px;
+text-align: center;
+text-transform: none;
+transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
 }
 
 .button:active {
-  background-color: #006AE8;
+background-color: #006AE8;
 }
 
 .button:hover {
-  background-color: #1C84FF;
+background-color: #1C84FF;
 }
 
 .container{
-  display: inline;
-  text-align: center; 
+display: inline;
+text-align: center; 
 }
 
 .titulinho {
-    font-family: 'Manrope', sans-serif;
-    font-size: 40px;
-    color: #1c1c1c;
-    text-align: center;
+  font-family: 'Manrope', sans-serif;
+  font-size: 40px;
+  color: #1c1c1c;
+  text-align: center;
 }
 
 *{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Manrope', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Manrope', sans-serif;
 }
 
 .container1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .ibagens{
-    height: 412px;
-    width: 450px;
-    border-radius: 3px;
-    transition: .5s;
+  height: 412px;
+  width: 450px;
+  border-radius: 3px;
+  transition: .5s;
 }
 
 .card{
-    height: 412px;
-    margin: 30px;
-    box-shadow: 5px 5px 20px black;
-    overflow: hidden;
+  height: 412px;
+  margin: 30px;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
 }
 
 .intro{
-    height: 80px;
-    width: 450px;
-    padding: 6px;
-    box-sizing: border-box;
-    position: relative;
-    bottom: 80px;
-    background: rgb(27,27,27,.5);
-    color: whitesmoke;
-    transition: .5s;
+  height: 80px;
+  width: 450px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 80px;
+  background: rgb(27,27,27,.5);
+  color: whitesmoke;
+  transition: .5s;
 }
 
 .pontostitle{
-    margin: 10px;
-    font-size: 35px;
+  margin: 10px;
+  font-size: 35px;
 }
 
 .textoPonto{
-    font-size: 13px;
-    margin: 5px;
-    text-align: justify;
-    visibility: hidden;
-    opacity: 0;
+  font-size: 13px;
+  margin: 5px;
+  text-align: justify;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .card:hover{
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .card:hover .intro{
-    height: 220px;
-    bottom: 220px;
-    background: black;
+  height: 220px;
+  bottom: 220px;
+  background: black;
 }
 
 .card:hover .textoPonto{
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
 
 .card:hover .ibagens{
-    transform: scale(1.4) rotate(-3deg);
+  transform: scale(1.4) rotate(-3deg);
 }
 
 .container2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .ibagens2{
-    height: 412px;
-    width: 450px;
-    border-radius: 3px;
-    transition: .5s;
+  height: 412px;
+  width: 450px;
+  border-radius: 3px;
+  transition: .5s;
 }
 
 .card2{
-    height: 412px;
-    margin: 30px;
-    box-shadow: 5px 5px 20px black;
-    overflow: hidden;
+  height: 412px;
+  margin: 30px;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
 }
 
 .intro2{
-    height: 90px;
-    width: 450px;
-    padding: 6px;
-    box-sizing: border-box;
-    position: relative;
-    bottom: 80px;
-    background: rgb(27,27,27,.5);
-    color: whitesmoke;
-    transition: .5s;
+  height: 90px;
+  width: 450px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 80px;
+  background: rgb(27,27,27,.5);
+  color: whitesmoke;
+  transition: .5s;
 }
 
 .pontostitle2{
-    margin: 10px;
-    font-size: 20px;
+  margin: 10px;
+  font-size: 20px;
 }
 
 .textoPonto2{
-    font-size: 13px;
-    margin: 5px;
-    text-align: justify;
-    visibility: hidden;
-    opacity: 0;
+  font-size: 13px;
+  margin: 5px;
+  text-align: justify;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .card2:hover{
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .card2:hover .intro2{
-    height: 220px;
-    bottom: 220px;
-    background: black;
+  height: 220px;
+  bottom: 220px;
+  background: black;
 }
 
 .card2:hover .textoPonto2{
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
 
 .card2:hover .ibagens2{
-    transform: scale(1.4) rotate(-3deg);
+  transform: scale(1.4) rotate(-3deg);
 }
 
 .container3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .ibagens3{
-    height: 412px;
-    width: 450px;
-    border-radius: 3px;
-    transition: .5s;
+  height: 412px;
+  width: 450px;
+  border-radius: 3px;
+  transition: .5s;
 }
 
 .card3{
-    height: 412px;
-    margin: 30px;
-    box-shadow: 5px 5px 20px black;
-    overflow: hidden;
+  height: 412px;
+  margin: 30px;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
 }
 
 .intro3{
-    height: 80px;
-    width: 450px;
-    padding: 6px;
-    box-sizing: border-box;
-    position: relative;
-    bottom: 80px;
-    background: rgb(27,27,27,.5);
-    color: whitesmoke;
-    transition: .5s;
+  height: 80px;
+  width: 450px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 80px;
+  background: rgb(27,27,27,.5);
+  color: whitesmoke;
+  transition: .5s;
 }
 
 .pontostitle3{
-    margin: 10px;
-    font-size: 35px;
+  margin: 10px;
+  font-size: 35px;
 }
 
 .textoPonto3{
-    font-size: 13px;
-    margin: 5px;
-    text-align: justify;
-    visibility: hidden;
-    opacity: 0;
+  font-size: 13px;
+  margin: 5px;
+  text-align: justify;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .card3:hover{
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .card3:hover .intro3{
-    height: 350px;
-    bottom: 350px;
-    background: black;
+  height: 350px;
+  bottom: 350px;
+  background: black;
 }
 
 .card3:hover .textoPonto3{
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
 
 .card3:hover .ibagens3{
-    transform: scale(1.4) rotate(-3deg);
+  transform: scale(1.4) rotate(-3deg);
 }
-
-
-
